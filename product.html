@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra | Collections</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>Nostra</h1>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Collections</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div style="padding: 20px;">
+        <input type="text" id="searchInput" placeholder="Search products..." style="width: 100%; padding: 10px; margin-bottom: 20px;">
+        
+        <div style="display: flex; gap: 20px;">
+            <aside style="width: 200px;">
+                <h3>Filters</h3>
+                <div>
+                    <input type="checkbox" class="filter-check" value="New"> New Arrival<br>
+                    <input type="checkbox" class="filter-check" value="Old"> Old Collection<br>
+                    <input type="checkbox" class="filter-check" value="Blue"> Blue Color
+                </div>
+            </aside>
+
+            <main id="productGrid" class="product-container">
+                </main>
+        </div>
+    </div>
+
+    <script src="product.js"></script>
+</body>
+</html>
